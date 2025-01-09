@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#home {
+    /*background-image: url('D:/Portfolio/home-bg.jpeg');*/
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

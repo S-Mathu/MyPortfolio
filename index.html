@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex align-items-center text-center bg-primary text-white" style="height: 100vh;">
+        <div class="container">
+            <h1>Hi, I'm Mathumithaa Sritharan</h1>
+            <p>Welcome to My Portfolio Website!</p>
+            <a href="#about" class="btn btn-light mt-3">Learn More About Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="text-center">I am a passionate software engineer with skills in web development, programming, and problem-solving.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="D:/Portfolio/about_me.jpg" alt="About Me" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Bootstrap, React</li>
+                        <li>Python, Java, .ASPNET</li>
+                        <li>Database Management (MySQL, MongoDB)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="D:/Portfolio/project1.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">I have Created Calculator Using Htmll, Css and JavaScript.</p>
+                            <a href="https://github.com/S-Mathu/Calculator.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="D:/Portfolio/project2.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Figma Design</p>
+                            <a href="https://www.figma.com/file/gD9Ir9YHxBM10dDV46TGkO/Untitled?type=design&node-id=4%3A5&mode=design&t=pmHDGjA5t56Xax2Z-1" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="D:/Portfolio/project3.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">SportsWebsite</p>
+                            <a href="https://github.com/S-Mathu/SportsWebsite.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name : </label><br>
+                    <label for="name">Mathumithaa Sritharan</label>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="email">Email : </label><br>
+                    <label for="email">Srimathumithaa@gmail.com</label>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="telephone_no">Telephone_No : </label><br>
+                    <label for="telephone_no">0772150003</label>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="message">MyProfile : </label><br>
+                    <label for="message">I am a student at the Open University of Jaffna and the University of Colombo School of Computing,
+                         currently pursuing my studies in software engineering. With a strong passion for this field, I am eager to deepen 
+                         my knowledge and contribute to innovative projects. My solid understanding of software development allows me to 
+                         tackle challenges and think critically about solutions. I thrive in collaborative environments and enjoy working with 
+                         team members to achieve common goals, always looking for opportunities to learn and grow professionally.
+
+                    </label>
+                    
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2025 Mathumithaa Sritharan. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
